@@ -12,8 +12,11 @@
 .Header {
     display: flex;
     justify-content: space-between;
-    margin: 0 120px;
     padding: 16px 0;
+}
+
+.Header, .Hero {
+    margin: 0 160px;
 }
 
 .left, .right {
@@ -24,6 +27,7 @@
 .left {
     font-size: 24px;
     color: #f9faf8;
+    font-size: 24px;
 }
 
 .right {
@@ -33,15 +37,18 @@
 .Hero {
     display: flex;
     justify-content: space-between;
-    margin-left: 120px;
-    margin-right: 120px;
 }
 
 .Hero-text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 240px;
+    max-width: 360px;
+}
+
+.HT-main {
+    font-size: 48px;
+    font-weight: 800;
 }
 
 .Hero-text, a {
