@@ -101,7 +101,7 @@
 .p3quote {
     display: flex;
     flex-direction: column;
-    padding: 200px 360px;
+    padding: 120px 240px;
 }
 
 .quote, .quoter {
@@ -110,11 +110,17 @@
 
 .quote {
     justify-content: flex-start;
-
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
 }
 
 .quoter {
     justify-content: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
