@@ -1,0 +1,16 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+ul {
+    list-style: none;
+}
