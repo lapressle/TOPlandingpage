@@ -6,7 +6,7 @@
     vertical-align: baseline;
 }
 
-.HH-bkg {
+.HH-bkg, .footer {
     background-color: #1F2937;
 }
 
@@ -64,6 +64,7 @@
 .Hero-text {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
     max-width: 360px;
     gap: 8px;
@@ -155,6 +156,13 @@
     color: #f9faf8;
     font-weight: lighter;
     font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    color: #f9faf8;
 }
 
 ul {
