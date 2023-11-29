@@ -22,6 +22,11 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 240px;
+}
+
+.Hero-button {
+    max-width: 120px;
 }
 
 ul {
