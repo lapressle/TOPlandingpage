@@ -10,6 +10,10 @@
     background-color: #1F2937;
 }
 
+.phasethree {
+    background-color: #E5E7EB;
+}
+
 .Header {
     display: flex;
     justify-content: space-between;
@@ -78,6 +82,7 @@
     display: flex;
     text-align: center;
     gap: 52px;
+    padding-bottom: 90px;
 }
 
 .p2txt {
@@ -91,6 +96,25 @@
     font-weight: 800;
     color: #1F2937;
     padding: 36px 0
+}
+
+.p3quote {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 360px;
+}
+
+.quote, .quoter {
+    display: flex;
+}
+
+.quote {
+    justify-content: flex-start;
+
+}
+
+.quoter {
+    justify-content: flex-end;
 }
 
 ul {
