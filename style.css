@@ -33,9 +33,11 @@
 
 .phasefour {
     margin: 48px 160px;
+    padding: 24px 0px;
     display: flex;
     justify-content: space-around;
-    border: 2px solid blue
+    background-color: #3882f6;
+    border-radius: 10px;
 }
 
 .left, .right {
@@ -133,6 +135,26 @@
 .ctact {
     display: flex;
     flex-direction: column;
+}
+
+.c2abutton {
+    padding: 8px 24px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+}
+
+.ctactmain {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ctactsub {
+    color: #f9faf8;
+    font-weight: lighter;
+    font-size: 18px;
 }
 
 ul {
