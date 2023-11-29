@@ -70,7 +70,17 @@
     background-color: #3882f6;
 }
 
+.p2secondrow {
+    display: flex;
+    text-align: center;
+    gap: 52px;
+}
 
+.p2txt {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
 
 ul {
     list-style: none;
